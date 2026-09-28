@@ -1,0 +1,19 @@
+[project]
+name = "tinder-match-engine"
+version = "0.1.0"
+description = "Multimodal preference-learning and autonomous matching engine."
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = []
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/tinder_match_engine"]
+
+
